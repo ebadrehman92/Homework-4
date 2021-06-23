@@ -1,0 +1,78 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Gotham Rounded;
+}
+
+main {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 30vh;
+}
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+}
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+.btn {
+    background-color: rgb(209, 61, 209);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.btn:hover {
+    background-color: rgb(94, 27, 94);
+}
+
+#start-btn {
+width: 100px;
+}
+
+#next-btn {
+width: 100px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
+
+body .header{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(197, 40, 197);
+}
+
+.head {
+    text-align: left;
+}
+
+.paragraph {
+    text-align: right;
+}
+#boom {
+    background-color: rgb(58, 19, 58);
+    font-size: 20px;
+}
