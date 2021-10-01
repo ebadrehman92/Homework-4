@@ -11,3 +11,7 @@ This application works on a desktop only.
 # Created by
 
 Ebad Rehman.
+
+# Deployed Link
+
+https://ebadrehman92.github.io/codeQuiz/
